@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luis Núñez | Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Luis Núñez</h1>
+        <p>Data Scientist | Machine Learning | Financial Analytics</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Data Scientist with background in Financial Management.
+            Specialized in predictive modeling, machine learning and business analytics.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Customer Churn Prediction</li>
+            <li>Gold Recovery Prediction</li>
+            <li>Vehicle Price Modeling</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>GitHub: github.com/Luisns92</p>
+    </section>
+
+</body>
+</html>
