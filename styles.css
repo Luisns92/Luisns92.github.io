@@ -69,3 +69,56 @@ footer {
     background-color: #0f172a;
     color: #64748b;
 }
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f1f5f9;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #3b82f6;
+}
+
+/* Ajuste para que no tape el contenido */
+.hero {
+    margin-top: 80px;
+}
+
+/* Animación suave */
+section {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
