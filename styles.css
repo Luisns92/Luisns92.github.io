@@ -122,3 +122,16 @@ section {
         opacity: 1;
     }
 }
+
+/* Glassmorphism effect */
+.project-card {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hover más premium */
+.project-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.3);
+}
