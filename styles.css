@@ -46,9 +46,16 @@ body {
 }
 
 section {
-    max-width: 900px;
-    margin: auto;
-    padding: 60px 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 h2 {
@@ -135,13 +142,17 @@ section {
 .project-card {
     background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    border-radius: 14px;
+    transition: all 0.35s ease;
 }
 
 /* Hover más premium */
 .project-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.3);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(59, 130, 246, 0.25);
+    border: 1px solid rgba(59, 130, 246, 0.4);
 }
 
 .btn {
@@ -162,4 +173,40 @@ section {
 
 .btn:hover::after {
     left: 100%;
+}
+
+/* Projects Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Ajuste sección projects */
+.projects {
+    padding: 80px 20px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+.project-buttons {
+    margin-top: 15px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
 }
