@@ -221,7 +221,7 @@ section {
     height: 600px !important;
     object-fit: cover;
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .profile-img:hover {
