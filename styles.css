@@ -217,8 +217,8 @@ section {
 }
 
 .profile-img {
-    width: 400px !important;
-    height: 400px !important;
+    width: 600px !important;
+    height: 600px !important;
     object-fit: cover;
     display: block;
     margin: 0 auto 20px auto;
