@@ -97,11 +97,7 @@ html {
 
 /* NAVBAR */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;   /* 🔥 menos espacio vertical */
-    background-color: #0f172a;
+    padding: 10px 20px;  /* menos espacio lateral */
 }
 
 .navbar ul {
