@@ -108,6 +108,8 @@ html {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin: 0;      /* 🔥 importante */
+    padding: 0;     /* 🔥 importante */
 }
 
 .navbar a {
@@ -212,5 +214,11 @@ section {
     object-fit: cover;
     display: block;
     margin: 0 auto 0px auto;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
 
