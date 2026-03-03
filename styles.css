@@ -15,13 +15,11 @@ body {
 }
 
 .hero {
-    min-height: 90vh;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;   /* CENTRA horizontal */
+    align-items: center;
     text-align: center;
-    padding: 60px 20px;
 }
 
 .hero h1 {
@@ -213,12 +211,20 @@ section {
 }
 
 
-.profile-img {
+/*.profile-img {
     width: 600px !important;
     height: 600px !important;
     object-fit: cover;
     display: block;
     margin: 0 auto 0px auto;
+}*/
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .logo {
