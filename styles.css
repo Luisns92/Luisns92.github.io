@@ -117,11 +117,6 @@ html {
     color: #3b82f6;
 }
 
-/* Ajuste para que no tape el contenido */
-.hero {
-    margin-top: 80px;
-}
-
 /* Animación suave */
 section {
     animation: fadeIn 1s ease forwards;
