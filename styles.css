@@ -212,20 +212,13 @@ section {
 
 
 .profile-img {
-    width: 600px !important;
-    height: 600px !important;
+    width: 400px !important;
+    height: 400px !important;
     object-fit: cover;
     display: block;
     margin: 0 auto 0px auto;
 }
 
-/*.profile-img {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}*/
 
 .logo {
     margin: 0;
