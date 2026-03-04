@@ -218,3 +218,9 @@ section {
     line-height: 1;
 }
 
+.about {
+    max-width: 1100px;   /* mismo ancho visual que projects */
+    margin: 0 auto;      /* centra la sección */
+    padding: 80px 20px;  /* espacio vertical + margen lateral */
+}
+
