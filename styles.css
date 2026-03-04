@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,6 +13,8 @@ body {
 
     color: #f1f5f9;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes gradientBG {
@@ -127,19 +133,15 @@ h2 {
 
 }
 
-/*footer {
-    text-align: center;
-    padding: 0px;
-    background-color: #0b1f17;
-    color: #94a3b8;
-}*/
-
 footer {
-    margin-top: auto;        /* 🔥 empuja el footer hasta abajo */
-    width: 100%;             /* ocupa todo el ancho */
-    padding: 0px 0;         /* solo arriba y abajo */
-    background-color: #0b1f17;
+    margin-top: auto;                /* lo empuja hasta abajo */
+    width: 100%;
+    padding: 20px 0;                 /* más delgado */
+    background-color: #0f2a20;       /* un tono ligeramente distinto */
+    border-top: 1px solid rgba(34, 197, 94, 0.15);
     text-align: center;
+    font-size: 14px;                 /* texto más pequeño */
+    color: #94a3b8;
 }
 
 /* Smooth scroll */
