@@ -183,6 +183,7 @@ html {
     margin: 20px;
     padding: 0;
     align-items: center;
+    font-size: 25px;
 }
 
 .navbar a {
@@ -320,7 +321,7 @@ section {
     align-items: center;
     gap: 12px;
 
-    padding: 25px 70px;
+    padding: 18px 70px;
     font-size: 18px;
 
     background: rgba(20, 60, 45, 0.6);
