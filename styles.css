@@ -71,6 +71,39 @@ body {
     background-color: #16a34a;
 }
 
+.btn-outline {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 12px 24px;
+    background: transparent;
+    color: #22c55e;
+    border: 2px solid #22c55e;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.btn-outline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #22c55e;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+.btn-outline:hover::before {
+    width: 100%;
+}
+
+.btn-outline:hover {
+    color: #0b1f17;
+}
+
 section {
     opacity: 0;
     transform: translateY(30px);
