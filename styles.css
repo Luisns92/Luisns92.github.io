@@ -377,3 +377,31 @@ section {
     transform: translateY(-5px);
     text-shadow: 0 0 15px rgba(34, 197, 94, 0.7);
 }
+
+.skills {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.skills h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skills-container i {
+    font-size: 60px;
+    color: #f1f5f9;
+    transition: 0.3s ease;
+}
+
+.skills-container i:hover {
+    color: #22c55e;
+    transform: translateY(-5px);
+}
