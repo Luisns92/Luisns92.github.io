@@ -42,12 +42,13 @@ body {
     color: #94a3b8;
 }
 
+
+
 .divider {
-    width: 80px;              /* largo de la línea */
-    height: 3px;              /* grosor */
-    background-color: #22c55e; /* verde principal */
-    margin: 15px auto 20px auto; /* centrado y espacio */
-    border-radius: 2px;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #22c55e, transparent);
+    margin: 20px auto;
 }
 
 .btn {
