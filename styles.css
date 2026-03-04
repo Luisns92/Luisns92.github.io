@@ -86,8 +86,8 @@ h2 {
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #0f172a;
-    color: #64748b;
+    background-color: #0b1f17; /* 🔥 mismo verde */
+    color: #94a3b8;
 }
 
 /* Smooth scroll */
@@ -102,8 +102,8 @@ html {
     align-items: center;
     height: 50px;              /* 🔥 fuerza altura fija */
     padding: 0 20px;           /* quita padding vertical */
-    background-color: #0f172a;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background-color: #0b1f17; /* 🔥 verde oscuro */
+    border-bottom: 1px solid rgba(34, 197, 94, 0.15);
 }
 
 .logo {
