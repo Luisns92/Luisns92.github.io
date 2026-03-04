@@ -33,7 +33,7 @@ body {
 .hero p1 {
     font-size: 25px;
     margin-bottom: 20px;
-    color: #32CD32;
+    color: #22c55e;
 }
 
 .hero p2 {
@@ -42,7 +42,13 @@ body {
     color: #94a3b8;
 }
 
-
+.divider {
+    width: 80px;              /* largo de la línea */
+    height: 3px;              /* grosor */
+    background-color: #22c55e; /* verde principal */
+    margin: 15px auto 20px auto; /* centrado y espacio */
+    border-radius: 2px;
+}
 
 .divider {
     width: 100px;
