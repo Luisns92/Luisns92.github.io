@@ -217,19 +217,9 @@ section {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
-}
-
-.image-wrapper {
-    padding: 10px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
-    display: inline-block;
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
-    transition: 0.4s ease;
-}
-
-.image-wrapper:hover {
-    transform: scale(1.05);
+    box-shadow:
+        0 0 30px rgba(59, 130, 246, 0.6),
+        0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .logo {
