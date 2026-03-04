@@ -70,6 +70,7 @@ body {
 
 .btn:hover {
     background-color: #F0F8FF;
+    color: #22c55e;
 }
 
 .btn-outline {
@@ -101,7 +102,7 @@ body {
 }
 
 .btn-outline:hover {
-    color: #0b1f17;
+    color: #F0F8FF;
 }
 
 section {
