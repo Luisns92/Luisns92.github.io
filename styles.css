@@ -396,18 +396,22 @@ section {
     align-items: center;
 }
 
-.skills-container i {
+.skills-container i,
+.skill-img,
+.skills-container svg {
+    width: 70px;
+    height: 70px;
     font-size: 70px;
     transition: 0.3s ease;
 }
 
-.skill-img {
-    width: 70px;
-    height: 70px;
-    transition: 0.3s ease;
+.skills-container i:hover,
+.skill-img:hover,
+.skills-container svg:hover {
+    transform: translateY(-8px);
 }
 
-.skills-container i:hover,
-.skill-img:hover {
-    transform: translateY(-8px);
+/* Íconos blancos */
+.white-icon {
+    color: #ffffff !important;
 }
