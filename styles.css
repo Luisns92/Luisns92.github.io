@@ -43,7 +43,7 @@ body {
 }
 
 .divider {
-    width: 80px;              /* largo de la línea */
+    width: 200px;              /* largo de la línea */
     height: 3px;              /* grosor */
     background-color: #22c55e; /* verde principal */
     margin: 15px auto 20px auto; /* centrado y espacio */
