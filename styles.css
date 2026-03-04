@@ -46,7 +46,6 @@ body {
     width: 200px;              /* largo de la línea */
     height: 3px;              /* grosor */
     background-color: #22c55e; /* verde principal */
-    colr:
     margin: 15px auto 20px auto; /* centrado y espacio */
     border-radius: 2px;
 }
@@ -99,10 +98,12 @@ body {
 
 .btn-outline:hover::before {
     width: 100%;
+    color: white;
 }
 
 .btn-outline:hover {
-    color: #F0F8FF;
+    background-color: #F0F8FF;
+    color: #22c55e;
 }
 
 section {
