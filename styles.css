@@ -302,28 +302,27 @@ section {
 }
 
 /* CONTACT SECTION */
+/* CONTACT ICONS */
 .contact-section {
     padding: 100px 20px;
     text-align: center;
 }
 
-.contact-links {
+.contact-icons {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 35px;
     margin-top: 30px;
-    flex-wrap: wrap;
 }
 
-.contact-item {
-    font-size: 18px;
-    text-decoration: none;
+.contact-icons a {
+    font-size: 28px;
     color: #94a3b8;
-    border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
 }
 
-.contact-item:hover {
+.contact-icons a:hover {
     color: #22c55e;
-    border-bottom: 2px solid #22c55e;
+    transform: translateY(-5px);
+    text-shadow: 0 0 15px rgba(34, 197, 94, 0.7);
 }
