@@ -30,7 +30,13 @@ body {
     margin-bottom: 10px;
 }
 
-.hero p {
+.hero p1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #008000;
+}
+
+.hero p2 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #94a3b8;
