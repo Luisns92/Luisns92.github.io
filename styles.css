@@ -133,7 +133,7 @@ section {
 
 /* Glassmorphism effect */
 .project-card {
-    background: rgba(15, 42, 32, 0.6); /* 🔥 verde oscuro translúcido */
+    background: rgba(20, 60, 45, 0.6);; /* 🔥 verde oscuro translúcido */
     backdrop-filter: blur(12px);
     border: 1px solid rgba(34, 197, 94, 0.15);
     padding: 25px;
