@@ -79,6 +79,7 @@ body {
     padding: 12px 24px;
     background: transparent;
     border: 2px solid #22c55e;
+    color: #F0F8FF;
     border-radius: 8px;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -98,7 +99,6 @@ body {
 
 .btn-outline:hover::before {
     width: 100%;
-    color: white;
 }
 
 .btn-outline:hover {
