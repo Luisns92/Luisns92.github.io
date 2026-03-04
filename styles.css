@@ -163,7 +163,7 @@ html {
     justify-content: flex-start;
     align-items: center;
 
-    padding: 18px 40px;         /* 🔥 más ancho */
+    padding: 18px 35px;         /* 🔥 más ancho */
     background-color: #0f2a20;
 
     border-bottom: 1px solid rgba(34, 197, 94, 0.15);
