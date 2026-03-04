@@ -52,7 +52,7 @@ body {
 }
 
 .divider {
-    width: 100px;
+    width: 200px;
     height: 2px;
     background: linear-gradient(to right, transparent, #22c55e, transparent);
     margin: 20px auto;
@@ -69,7 +69,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #16a34a;
+    background-color: #F0F8FF;
 }
 
 .btn-outline {
