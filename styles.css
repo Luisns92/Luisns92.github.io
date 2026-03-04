@@ -1,9 +1,12 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1e293b);
+
+    /* 🔥 Nuevo fondo verde elegante */
+    background: linear-gradient(-45deg, #0b1f17, #132d23, #0b1f17, #132d23);
     background-size: 400% 400%;
     animation: gradientBG 12s ease infinite;
+
     color: #f1f5f9;
     line-height: 1.6;
 }
