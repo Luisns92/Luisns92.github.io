@@ -303,50 +303,27 @@ section {
 
 /* CONTACT SECTION */
 .contact-section {
-    padding: 80px 20px;
+    padding: 100px 20px;
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-.contact-section h2 {
-    font-size: 32px;
-    color: #22c55e;
-    margin-bottom: 8px;
-}
-
-.contact-section p {
-    color: #94a3b8;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.contact-form {
+.contact-links {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    max-width: 500px;
-    padding: 12px;
-    border: 2px solid #22c55e;
-    border-radius: 8px;
-    background: rgba(20, 60, 45, 0.6);
-    color: #f1f5f9;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s ease;
+.contact-item {
+    font-size: 18px;
+    text-decoration: none;
+    color: #94a3b8;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border-color: #16a34a;
-}
-
-.contact-form button {
-    margin-top: 10px;
+.contact-item:hover {
+    color: #22c55e;
+    border-bottom: 2px solid #22c55e;
 }
