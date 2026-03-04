@@ -42,6 +42,14 @@ body {
     color: #94a3b8;
 }
 
+.divider {
+    width: 80px;              /* largo de la línea */
+    height: 3px;              /* grosor */
+    background-color: #22c55e; /* verde principal */
+    margin: 15px auto 20px auto; /* centrado y espacio */
+    border-radius: 2px;
+}
+
 .btn {
     display: inline-block;
     padding: 12px 24px;
