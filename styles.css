@@ -70,21 +70,6 @@ h2 {
     padding-left: 10px;
 }
 
-.project-card {
-    background: rgba(15, 42, 32, 0.6); /* 🔥 verde oscuro translúcido */
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(34, 197, 94, 0.15);
-    padding: 25px;
-    border-radius: 14px;
-    transition: all 0.35s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 45px rgba(34, 197, 94, 0.25);
-    border: 1px solid rgba(34, 197, 94, 0.4);
-}
-
 footer {
     text-align: center;
     padding: 30px;
@@ -148,9 +133,9 @@ section {
 
 /* Glassmorphism effect */
 .project-card {
-    background: rgba(30, 41, 59, 0.6);
+    background: rgba(15, 42, 32, 0.6); /* 🔥 verde oscuro translúcido */
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(34, 197, 94, 0.15);
     padding: 25px;
     border-radius: 14px;
     transition: all 0.35s ease;
