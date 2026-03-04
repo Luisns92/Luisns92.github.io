@@ -2,6 +2,11 @@ html, body {
     height: 100%;
 }
 
+main {
+    flex: 1;
+    padding-top: 110px; /* espacio por navbar fixed */
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -131,8 +136,6 @@ h2 {
     text-align: center;
 }
 
-}
-
 footer {
     margin-top: auto;                /* lo empuja hasta abajo */
     width: 100%;
@@ -149,15 +152,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/*.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;              
-    padding: 0 20px;           
-    background-color: #0b1f17;
-    border-bottom: 1px solid rgba(34, 197, 94, 0.15);
-}*/
 
 .navbar {
     position: fixed;            /* 🔥 lo fija arriba */
