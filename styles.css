@@ -134,6 +134,14 @@ footer {
     color: #94a3b8;
 }
 
+footer {
+    margin-top: auto;        /* 🔥 empuja el footer hasta abajo */
+    width: 100%;             /* ocupa todo el ancho */
+    padding: 30px 0;         /* solo arriba y abajo */
+    background-color: #0b1f17;
+    text-align: center;
+}
+
 /* Smooth scroll */
 html {
     scroll-behavior: smooth;
