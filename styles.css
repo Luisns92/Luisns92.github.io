@@ -163,7 +163,7 @@ html {
     justify-content: space-between;  /* 🔥 vuelve esto */
     align-items: center;
 
-    padding: 18px 50px;              /* más espacio lateral */
+    padding: 18px 70px;              /* más espacio lateral */
     background-color: #0f2a20;
     border-bottom: 1px solid rgba(34, 197, 94, 0.15);
     z-index: 1000;
