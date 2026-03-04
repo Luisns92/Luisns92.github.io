@@ -149,15 +149,31 @@ html {
     scroll-behavior: smooth;
 }
 
-/* NAVBAR */
-.navbar {
+/*.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;              /* 🔥 fuerza altura fija */
-    padding: 0 20px;           /* quita padding vertical */
-    background-color: #0b1f17; /* 🔥 verde oscuro */
+    height: 50px;              
+    padding: 0 20px;           
+    background-color: #0b1f17;
     border-bottom: 1px solid rgba(34, 197, 94, 0.15);
+}*/
+
+.navbar {
+    position: fixed;            /* 🔥 lo fija arriba */
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 40px;         /* 🔥 más ancho */
+    background-color: #0f2a20;
+
+    border-bottom: 1px solid rgba(34, 197, 94, 0.15);
+    z-index: 1000;              /* asegura que quede encima */
 }
 
 .logo {
